@@ -4,7 +4,7 @@
     <div class="container">
         <h1 class="mb-4">Agregar nuevo auto</h1>
 
-        <form action="" method="POST">
+        <form action="/cars" method="POST">
             @csrf
 
             <div class="form-group">
