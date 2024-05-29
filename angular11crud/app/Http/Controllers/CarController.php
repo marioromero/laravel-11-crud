@@ -12,18 +12,18 @@ class CarController extends Controller
      */
 // En el archivo CarController.php
 
-public function index()
-{
-    $cars = Car::all();
-    return view('cars.index', compact('cars'));
-}
+    public function index()
+    {
+        $cars = Car::all();
+        return view('cars.index', compact('cars'));
+    }
 
     /**
      * Show the form for creating a new resource.
      */
     public function create()
     {
-        //
+        return view('cars.create');
     }
 
     /**

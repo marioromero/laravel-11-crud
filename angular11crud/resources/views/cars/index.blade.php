@@ -1,6 +1,8 @@
 @extends('layout')
 
 @section('content')
+    <div class="container">
+
     <h1>Autos</h1>
     <table id="myTable" class="display">
         <thead>
@@ -25,3 +27,4 @@
         </tbody>
     </table>
 @endsection
+    </div>

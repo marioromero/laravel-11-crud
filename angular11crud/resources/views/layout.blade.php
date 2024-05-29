@@ -4,8 +4,10 @@
     <title>Aplicación</title>
     <!-- Incluir DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+
     <header>
         <!-- Aquí puedes incluir tu barra de navegación -->
     </header>

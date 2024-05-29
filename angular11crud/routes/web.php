@@ -8,4 +8,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/cars', [CarController::class, 'index']);
+Route::get('/cars', [CarController::class, 'index']); //muestra la lista de autos
+Route::get('/cars/create', [CarController::class, 'create']); //muestra el formulario para crear autos
+
