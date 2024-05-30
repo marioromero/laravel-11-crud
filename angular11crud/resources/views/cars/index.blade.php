@@ -1,10 +1,9 @@
 @extends('layout')
 
 @section('content')
-    <div class="container">
 
     <h1>Autos</h1>
-    <table id="myTable" class="display">
+    <table id="myTable" class="table table-bordered table-hover">
         <thead>
             <tr>
                 <th>Marca</th>
@@ -27,4 +26,4 @@
         </tbody>
     </table>
 @endsection
-    </div>
+
