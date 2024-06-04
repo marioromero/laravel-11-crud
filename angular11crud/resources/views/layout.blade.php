@@ -942,7 +942,7 @@
         $('#myTable').DataTable();
     });
 </script>
-</body>
+</body>+
 </html>
 
 <!-- Incluir jQuery y DataTables JavaScript-->
